@@ -1,0 +1,16 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: config-client   #定义服务名称
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka
+  instance:
+    instance-id: config-client-9090    #定义微服务的名称
+    prefer-ip-address: true            #是否显示IP和端口

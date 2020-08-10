@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: springcloudconfig     #对应config server Url中的{application}
+      profile: dev                #动态加载开发环境配置文件
+      label: master               #获取master默认分支
+      uri: http://localhost:9080/ #配置服务中心地址

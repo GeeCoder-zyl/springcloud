@@ -1,0 +1,16 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /
+
+spring:
+  application:   #定义服务名称
+    name: dashboard
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka #链接注册中心集群
+  instance:
+    instance-id: dashboard-9000                 #定义微服务的名称
+    prefer-ip-address: true                     #是否显示IP和端口

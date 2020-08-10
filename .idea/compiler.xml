@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-consumer-8020" />
+        <module name="springcloud-consumer-8021" />
+        <module name="springcloud-api" />
+        <module name="springcloud-config-service" />
+        <module name="springcloud-provider-8002" />
+        <module name="springcloud-provider-8001" />
+        <module name="springcloud-zuul-9050" />
+        <module name="springcloud-dashboard-9000" />
+        <module name="springcloud-eureka-7001" />
+        <module name="springcloud-eureka-7000" />
+        <module name="springcloud-config-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud" target="1.8" />
+      <module name="springcloud-api" target="1.8" />
+      <module name="springcloud-config-client" target="1.8" />
+      <module name="springcloud-config-service" target="1.8" />
+      <module name="springcloud-consumer-8020" target="1.8" />
+      <module name="springcloud-consumer-8021" target="1.8" />
+      <module name="springcloud-dashboard-9000" target="1.8" />
+      <module name="springcloud-eureka-7000" target="1.8" />
+      <module name="springcloud-eureka-7001" target="1.8" />
+      <module name="springcloud-provider-8001" target="1.8" />
+      <module name="springcloud-provider-8002" target="1.8" />
+      <module name="springcloud-zuul-9050" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-api" options="-parameters" />
+      <module name="springcloud-config-client" options="-parameters" />
+      <module name="springcloud-config-service" options="-parameters" />
+      <module name="springcloud-consumer-8020" options="-parameters" />
+      <module name="springcloud-consumer-8021" options="-parameters" />
+      <module name="springcloud-dashboard-9000" options="-parameters" />
+      <module name="springcloud-eureka-7000" options="-parameters" />
+      <module name="springcloud-eureka-7001" options="-parameters" />
+      <module name="springcloud-provider-8001" options="-parameters" />
+      <module name="springcloud-provider-8002" options="-parameters" />
+      <module name="springcloud-zuul-9050" options="-parameters" />
+    </option>
+  </component>
+</project>

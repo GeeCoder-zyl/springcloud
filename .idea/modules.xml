@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-client-9090/springcloud-config-client.iml" filepath="$PROJECT_DIR$/springcloud-config-client-9090/springcloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-service-9080/springcloud-config-service.iml" filepath="$PROJECT_DIR$/springcloud-config-service-9080/springcloud-config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-8020/springcloud-consumer-8020.iml" filepath="$PROJECT_DIR$/springcloud-consumer-8020/springcloud-consumer-8020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dashboard-9000/springcloud-dashboard-9000.iml" filepath="$PROJECT_DIR$/springcloud-dashboard-9000/springcloud-dashboard-9000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-7000/springcloud-eureka-7000.iml" filepath="$PROJECT_DIR$/springcloud-eureka-7000/springcloud-eureka-7000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" filepath="$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-8001/springcloud-provider-8001.iml" filepath="$PROJECT_DIR$/springcloud-provider-8001/springcloud-provider-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-8002/springcloud-provider-8002.iml" filepath="$PROJECT_DIR$/springcloud-provider-8002/springcloud-provider-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul-9050/springcloud-zuul-9050.iml" filepath="$PROJECT_DIR$/springcloud-zuul-9050/springcloud-zuul-9050.iml" />
+    </modules>
+  </component>
+</project>
